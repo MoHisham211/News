@@ -25,8 +25,8 @@ import mo.zain.news.ui.MainActivity;
 
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> implements Serializable{
 
-    NewsModel newsModels;
-    Context context;
+    private NewsModel newsModels;
+    private Context context;
 
     public NewsAdapter(NewsModel newsModels, Context context) {
         this.newsModels = newsModels;

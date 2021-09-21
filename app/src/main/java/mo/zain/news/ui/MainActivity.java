@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
 
     private List<Article> articleList=new ArrayList<>();
     private List<Article> articleListFilter=new ArrayList<>();
-    NewsAdapter adapter;
-    RecyclerView rv;
-    EditText searchET;
-    NewsModel newsModel;
+    private NewsAdapter adapter;
+    private RecyclerView rv;
+    private EditText searchET;
+    private NewsModel newsModel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

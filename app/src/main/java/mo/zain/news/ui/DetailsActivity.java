@@ -16,8 +16,8 @@ import mo.zain.news.model.NewsModel;
 
 public class DetailsActivity extends AppCompatActivity {
 
-    ImageView newsImageView,backImage;
-    TextView source,titletxt,destxt;
+    private ImageView newsImageView,backImage;
+    private TextView source,titletxt,destxt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
